@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title></title>
@@ -22,7 +22,7 @@ $months  = array (
 "octobre" => "10",
 "novembre" => "11",
 "décembre" => "12",
-
+//test commit
 );
 
 echo '<table border="1">';
