@@ -31,15 +31,7 @@
 	}
 		
 
-	if (!empty($_POST['mail'])) { //Champ du Mail
-		if(filter_var($_POST['mail'],FILTER_VALIDATE_EMAIL)===false){
-			echo "Erreur de Mail" . "<br>";
-		}
-
-		else {
-			echo "Courriel conforme" . "<br>";
-		}
-	}
+	
 		
 		
 
