@@ -7,10 +7,9 @@ $developpeur = array(new Developpeur(550,"Le Flock", "Louis-Marie",
 new Developpeur(650,"Chellal", "Amine",
 "ach@test.net", "0707070707",2750, "C++"),
 new Developpeur(151,"Katsiev", "Amir",
-"amir@test.net", "0606060606",2750, "Kotlin")) 
+"amir@test.net", "0606060606",2750, "Kotlin")) ;
 $manager = array(new Manager(500,"RIPAULT", "Alexis", "alexis@manager.net",
 "0606060606",4000, "DSI")) ;
-
 
 foreach ($developpeur as $value) {
 	echo $value->afficher();
