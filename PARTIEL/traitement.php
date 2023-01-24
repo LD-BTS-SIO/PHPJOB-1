@@ -9,7 +9,7 @@ new Developpeur(650,"Chellal", "Amine",
 new Developpeur(151,"Katsiev", "Amir",
 "amir@test.net", "0606060606",2750, "Kotlin")) ;
 $manager = array(new Manager(500,"RIPAULT", "Alexis", "alexis@manager.net",
-"0606060606",4000, "DSI"))
+"0606060606",4000, "DSI"));
 
 foreach ($developpeur as $value) {
 	echo $value->afficher();
